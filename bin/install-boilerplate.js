@@ -81,7 +81,6 @@ const displaySuccessMessage = () => {
   console.log('💫 Poetic was installed successfully!');
   console.log('   It is recommended to add these plugins to your IDE:');
   console.log('   🔹 ESLint');
-  console.log('   🔹 Prettier');
   console.log('   🔹 EditorConfig');
 }
 

@@ -11,7 +11,7 @@
   <a href="https://github.com/arianacosta/poetic"><img alt="Code Size" src="https://img.shields.io/github/languages/code-size/arianacosta/poetic"></a>
 </p>
 
-Poetic installs and maintains ESLint, Prettier, EditorConfig and Airbnb rules for JavaScript, TypeScript and React.
+Poetic installs and maintains ESLint, EditorConfig and StandardJS rules for JavaScript and TypeScript.
 
 <p align="center">
   <img alt="Poetic installation example" src="https://user-images.githubusercontent.com/13475001/66051447-f4b67300-e4fc-11e9-82d0-4e23fab9d7d0.gif" 
@@ -31,8 +31,8 @@ npx poetic
 
 ## Features
 
-- Installs and configures **ESLint**, **Prettier** and **EditorConfig**
-- Provides a curated set of rules based on **Airbnb** and **ESLint Recommended**
+- Installs and configures **ESLint** and **EditorConfig**
+- Provides a curated set of rules based on **StandardJS** and **ESLint Recommended**
 - **Customizable project configurations** that are shareable
 - Easy to maintain with a **single dependency**
 - Configures **Visual Studio Code**
@@ -63,7 +63,6 @@ your-app/
 Poetic comes preconfigured to work with VSC, so that you can see the error indicators in real-time as well as automatic formatting on save. In order for these features to work, you need to install the following extensions:
 
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 
 ## Running on the CLI
@@ -83,8 +82,6 @@ Poetic provides a base configuration that can be easily extended or overridden. 
 - ESLint: 
   - `.eslintrc.js` (Linting rules)
   - `.eslintignore` (Ignored files)
-- Prettier:
-  - `.prettierrc` (Formatting rules)
 - TypeScript:
   - `tsconfig.json` (TS compilation)
 - EditorConfig:
@@ -95,7 +92,7 @@ Poetic provides a base configuration that can be easily extended or overridden. 
 
 ## Installing on a preconfigured project 
 
-It is strongly recommended to remove other versions of ESLint and Prettier prior to installing Poetic.
+It is strongly recommended to remove other versions of ESLint prior to installing Poetic.
 
 If your project has custom rules or configurations, those can be easily copied over to the files added by Poetic. The filename convention is the same, so it should be straight forward.
 
