@@ -32,7 +32,6 @@
     "tslint",
     "javascript",
     "typescript",
-    "prettier",
     "airbnb"
   ]
 }
