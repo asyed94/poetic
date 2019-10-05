@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "poetic": "^1.0.5"
+    "poetic": "github:asyed94/poetic#typescript-standard-custom"
   },
   "scripts": {
     "code:lint": "eslint --ext .js,.ts \"src/\" --fix",
