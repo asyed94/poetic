@@ -1,10 +1,12 @@
+import { join } from path
+
 module.exports = {
-  "extends": "standard-with-typescript",
-  "parserOptions": {
-      "project": "./tsconfig.json"
+  extends: 'standard-with-typescript',
+  parserOptions: {
+      project: join(__dirname, 'tsconfig.json')
   },
   rules: {
-    "no-console": "off",
-    "no-restricted-syntax": "off"
+    'no-console': 'off',
+    'no-restricted-syntax': 'off'
   }
 };
